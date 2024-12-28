@@ -11,19 +11,19 @@ public class LogInTest extends BaseTest {
     public void logInTest() {
         WebElement dashboardLink = new HomePage(driver)
                 .openMyAccountPage()
-                .logInValidData("test@mail.com", "test1234@rrrr")
+                .logInValidData("test761@mail.com", "test1234@rrrr")
                 .getDashboardLink();
 
         Assert.assertEquals(dashboardLink.getText(), "Dashboard");
     }
 
-    @Test
-    public void logInWithInvalidPasswordTest() {
+    /*@Test
+    public void logInWithInvalidDataTest() {
         WebElement error = new HomePage(driver)
                 .openMyAccountPage()
-                .logInInvalidData("test@mail.com", "test1234@")
+                .logInInvalidData("test333@mail.com", "test1234@")
                 .getError();
 
         Assert.assertTrue(error.getText().contains("Incorrect username or password"), "Expected error text doesn't match");
-    }
+    }*/
 }

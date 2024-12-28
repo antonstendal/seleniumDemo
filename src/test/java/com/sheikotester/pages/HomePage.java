@@ -12,6 +12,9 @@ public class HomePage {
     @FindBy(id = "menu-item-22")
     private WebElement myAccountLink;
 
+    @FindBy(id = "menu-item-21")
+    private WebElement shopLink;
+
     private WebDriver driver;
 
     public HomePage(WebDriver driver) {
@@ -24,5 +27,10 @@ public class HomePage {
     public MyAccountPage openMyAccountPage() {
         myAccountLink.click();
         return new MyAccountPage(driver);
+    }
+
+    public ProductListPage openShopPage() {
+        shopLink.click();
+        return new ProductListPage(driver);
     }
 }
