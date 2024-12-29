@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d79fc486-fc95-4089-b20f-b687f23b06e1" name="Changes" comment="add tests and page object">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="d79fc486-fc95-4089-b20f-b687f23b06e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +18,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "antonstendal"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/antonstendal/seleniumDemo.git",
+    "accountId": "d39c2884-d175-4330-b977-b4fac7845421"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/com/sheikotester/pages/HomePage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -53,7 +64,7 @@
     "TestNG.RegisterTest.registerUserTest.executor": "Run",
     "TestNG.RegisterTest.registerUserWithSameEmailTest.executor": "Run",
     "TestNG.com.sheikotester.tests.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "first-branch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/seleniumDemo/seleniumdemo",
@@ -156,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.com.sheikotester.tests" />
-        <item itemvalue="TestNG.CheckoutTest" />
         <item itemvalue="TestNG.RegisterTest.registerUserWithSameEmailTest" />
-        <item itemvalue="TestNG.CheckoutTest.checkoutTest" />
         <item itemvalue="TestNG.RegisterTest.registerUserTest" />
+        <item itemvalue="TestNG.com.sheikotester.tests" />
+        <item itemvalue="TestNG.CheckoutTest.checkoutTest" />
+        <item itemvalue="TestNG.CheckoutTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,13 +192,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735397482195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete login test with invalid data">
+      <option name="closed" value="true" />
+      <created>1735449087941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735449087941</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add tests and page object" />
     <MESSAGE value="add tests and page object&#10;add Selenium Helper&#10;delete Test LogIn With Invalid Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests and page object&#10;add Selenium Helper&#10;delete Test LogIn With Invalid Data" />
+    <MESSAGE value="add tests and page object" />
+    <MESSAGE value="delete login test with invalid data" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete login test with invalid data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
